@@ -1,0 +1,9 @@
+export const Label_Username = "Username";
+export const Label_Password = "Password";
+export const Login_Title = "Login";
+export const App_Title = "Let's Blog";
+export const App_Description = "“A blog is only as interesting as the interest shown in others.”";
+export const Save_User = "Remember Me";
+export const Register_User = "Don't have an account ? Register here";
+export const Google_Logo = "./assets/google-icon.jpg";
+export const Media_Handle = "Please find our social media handles below";

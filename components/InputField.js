@@ -1,22 +1,31 @@
 import React from "react";
-import { View, StyleSheet,TextInput } from "react-native";
+import { View, StyleSheet, TextInput, Text } from "react-native";
 
-const InputField = (props)=>{
+const InputField = (props) => {
     return (
         <View style={styles.input}>
-            <TextInput placeholder={props.text} style={styles.inputtext}></TextInput>
+            <Text style={styles.label}>{props.text}</Text>
+            <View style={styles.inputFieldContainer}>
+                <TextInput style={styles.inputtext} secureTextEntry={props.isSecureEntry}></TextInput>
+            </View>
         </View>
     )
 }
 
 const styles = StyleSheet.create({
-    input:{
-        backgroundColor: '#C0C0C0',
-        margin: 10,
-        width: '80%',
-        height: '7%',
+    inputFieldContainer: {
+        marginTop: 10,
         borderRadius: 5,
-        textAlign: "center",
+        borderWidth: 2,
+        borderColor: '#9c27b0',
+    },
+    label: {
+        color: "#9c27b0",
+        marginTop: 30
+    },
+    inputtext: {
+        margin: 3,
+        color: "#9c27b0",
     }
 });
 
