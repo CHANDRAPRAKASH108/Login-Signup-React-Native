@@ -7,3 +7,4 @@ export const Save_User = "Remember Me";
 export const Register_User = "Don't have an account ? Register here";
 export const Google_Logo = "./assets/google-icon.jpg";
 export const Media_Handle = "Please find our social media handles below";
+export const Register_Description = "Please register here to use our application seamlessly";
