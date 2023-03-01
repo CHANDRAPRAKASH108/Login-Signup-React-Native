@@ -6,7 +6,7 @@ const InputField = (props) => {
         <View style={styles.input}>
             <Text style={styles.label}>{props.text}</Text>
             <View style={styles.inputFieldContainer}>
-                <TextInput style={styles.inputtext} secureTextEntry={props.isSecureEntry}></TextInput>
+                <TextInput style={styles.inputtext} secureTextEntry={props.isSecureEntry} keyboardType={props.inputType}></TextInput>
             </View>
         </View>
     )

@@ -13,7 +13,7 @@ const Btn = (props) => {
 
 const styles = StyleSheet.create({
     btnContainer: {
-        marginTop: 20,
+        marginTop: 30,
         borderRadius: 5,
         textAlign: "center",
     },

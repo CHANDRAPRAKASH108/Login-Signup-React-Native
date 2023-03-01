@@ -15,7 +15,7 @@ const LoginModule = ({navigation}) => {
           <InputField text={Label_Username} isSecureEntry={false}></InputField>
           <InputField text={Label_Password} isSecureEntry={true}></InputField>
           <Btn text={Login_Title}></Btn>
-          <TouchableOpacity style={styles.register} onPress={() => navigation.navigate('RegisterModule', { name: "RegisterModule" })}>
+          <TouchableOpacity style={styles.register} onPress={() => navigation.push('RegisterModule')}>
             <TextField text={Register_User} />
           </TouchableOpacity>
           <View style={styles.horizontalBorder} />

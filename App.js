@@ -14,7 +14,7 @@ const MyStack = () => {
           component={LoginModule}
           options={{headerShown: false}}
         />
-        <Stack.Screen name="RegisterModule" component={RegisterModule} />
+        <Stack.Screen name="RegisterModule" component={RegisterModule} options={{headerShown: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
